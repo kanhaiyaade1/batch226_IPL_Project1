@@ -1,0 +1,47 @@
+# Ignore Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse-specific files
+.project
+.classpath
+.settings/
+.metadata/
+
+# IntelliJ-specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code-specific
+.vscode/
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.bak
+
+# Environment and auth
+.env
+*.key
+*.pem
